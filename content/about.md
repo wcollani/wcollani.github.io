@@ -16,4 +16,4 @@ This blog is where I publish what I learn from running real systems: benchmarks,
 
 **Stack:** Python · Ollama · Unraid · UniFi · Prometheus · Loki
 
-Reach me on [GitHub](https://github.com/wcollani).
+Reach me on [GitHub](https://github.com/wcollani) or [LinkedIn](https://www.linkedin.com/in/william-collani-4b37aa30).

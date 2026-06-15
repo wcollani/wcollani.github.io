@@ -24,6 +24,10 @@ paginate = 10
   name = "github"
   url = "https://github.com/wcollani"
 
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/william-collani-4b37aa30"
+
 [markup.highlight]
   style = "github-dark"
   lineNos = false
