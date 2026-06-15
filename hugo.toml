@@ -1,0 +1,43 @@
+baseURL = "https://wcollani.github.io/"
+locale = "en-us"
+title = "Will Collani"
+theme = "PaperMod"
+enableRobotsTXT = true
+paginate = 10
+
+[params]
+  author = "Will Collani"
+  description = "Engineering notes on homelab AI, SRE automation, and local inference"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  defaultTheme = "auto"
+  DateFormat = "January 2, 2006"
+
+[params.homeInfoParams]
+  Title = "Will Collani"
+  Content = "Engineering notes on homelab AI, SRE automation, and local inference. I run autonomous agents on local LLMs and write about what I learn."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/wcollani"
+
+[markup.highlight]
+  style = "github-dark"
+  lineNos = false
+  noClasses = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
