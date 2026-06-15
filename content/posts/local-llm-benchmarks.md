@@ -8,7 +8,7 @@ showToc: true
 
 Public LLM leaderboards measure things that don't map to operational work. MMLU tests factual recall. HumanEval tests algorithm implementation. Neither tells you whether a model can generate a syntactically valid PromQL query on the first try, summarize a Loki log dump without hallucinating event timestamps, or synthesize a multi-source alert triage plan under a tight token budget.
 
-I spent several weeks running a homelab benchmark suite against 7 models across two GPUs to answer a more specific question: **which local LLM should you run for SRE automation in 2025?**
+I spent several weeks running a homelab benchmark suite against 7 models across two GPUs to answer a more specific question: **which local LLM should you run for SRE automation in 2026?**
 
 Here's what I found.
 
